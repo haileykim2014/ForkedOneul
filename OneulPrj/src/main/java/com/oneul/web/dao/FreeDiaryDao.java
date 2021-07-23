@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.oneul.web.entity.FreeDiary;
 
+
 public interface FreeDiaryDao {
 	FreeDiary get(int id);	
 	List<FreeDiary> getList();
